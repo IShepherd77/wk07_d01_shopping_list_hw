@@ -5,10 +5,6 @@ body {
 }
 
 
-#app{
-
-}
-
 h1 {
   font: Arial;
   font-family: sans-serif;
@@ -20,8 +16,4 @@ h1 {
 
 span {
 font-size: 2em;
-}
-
-#highpri {
-  colour: red;
 }
