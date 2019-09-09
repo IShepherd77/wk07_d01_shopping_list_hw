@@ -19,7 +19,11 @@ document.addEventListener('DOMContentLoaded', () => {
           purchased: false
         });
         this.newItem = "";
-      }
+      },
+
+
+
+
     }
   });
 });
