@@ -6,5 +6,22 @@ body {
 
 
 #app{
-  background-color: pink;
+
+}
+
+h1 {
+  font: Arial;
+  font-family: sans-serif;
+  color: red;
+  font-size: 3em;
+  text-shadow: 1px 1px 1px black;
+  text-align: center;
+}
+
+span {
+font-size: 2em;
+}
+
+#highpri {
+  colour: red;
 }

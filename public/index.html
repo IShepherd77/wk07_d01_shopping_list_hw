@@ -13,18 +13,17 @@
       <input type="text" v-model="newItem">
         <button v-on:click="saveNewItem">Add New Item</button>
 
-      <ul>
+      <ol>
     <li v-for="item in items">
     <span>  {{ item.name }} </span>
-    <span v-if="item.purchased">Purchased!</span>
 
     <input type="radio" id="high" value="high">
-    <label for="high">High</label>
+    <label for="high">High Priority</label>
 
     <input type="radio" id="low" value="low">
-    <label for="low">Low</label>
+    <label for="low">Low Priority</label>
 </li>
-</ul>
+</ol>
     </div>
   </body>
 </html>
